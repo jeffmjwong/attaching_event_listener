@@ -15,6 +15,7 @@ toggleList.addEventListener('click', () => {
   } else {
     toggleList.textContent = 'Show list';
     listDiv.style.display = 'none';
+    listDiv.title = "This is the list";
   }
 });
 
